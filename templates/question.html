@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block body %}
+      <div class="row">
+        <div class="col-lg-12 text-center" style="text-align:left;">
+          <h1 class="mt-5">Practice GMAT app</h1>
+          <p>{{ question|safe }}</p>
+          <a href="{{ question_url }}" target="_blank">See in GmatClub</a>
+        </div>
+      </div>
+{% endblock %}
